@@ -57,15 +57,17 @@ body {
 /* Fix: cafe photo same height as map */
 .card-header.grid.grid-2-columns img.img-responsive {
   height: 100%;
+  max-height: 400px;
   min-height: 250px;
   object-fit: cover;
-  object-position: center;
+  object-position: left center;
 }
 
 .embed {
   width: 100%;
-  aspect-ratio: 1 / 1;
+  max-height: 400px;
   min-height: 250px;
+  aspect-ratio: unset;
 }
 
 
