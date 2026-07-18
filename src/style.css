@@ -288,3 +288,30 @@ footer a {
     aspect-ratio: 16/9;
   }
 }
+
+.btn-maps {
+  display: block;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 16px;
+  text-decoration: none;
+  transition: .2s ease-in-out;
+  background: #7BA7D4;
+}
+.btn-maps:hover {
+  background: white;
+  color: #7BA7D4;
+}
+
+
+
+
+
+
+
+
